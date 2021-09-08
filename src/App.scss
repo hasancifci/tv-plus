@@ -1,0 +1,393 @@
+.App {
+  text-align: center;
+}
+.content-box {
+  border: 1px solid black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar-nav-ul {
+  display: flex;
+}
+.navbar-nav-ul-li {
+  list-style: none;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.a {
+  text-decoration: none;
+  color: #000;
+}
+.navbar-brand {
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  margin-right: 1rem;
+}
+body {
+  font-family: sans-serif;
+}
+.btn-warning {
+  background-color: #fad604;
+  border-color: #fad604;
+}
+.btn-subscribe {
+  border-radius: 30px;
+  min-height: 36px;
+  min-width: 125px;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 10px;
+}
+.btn-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.mt-5 {
+  margin-top: 3rem;
+}
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.pb-3 {
+  padding-bottom: 1rem;
+}
+.index-slogan {
+  width: 450px;
+}
+.font-25 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-top: 0;
+}
+.btn-font {
+  font-size: 25px;
+  color: #1a1f28;
+  font-weight: 700;
+  line-height: 0.5;
+  padding: 11px 58px;
+  border-radius: 40px;
+}
+.btn-font:hover {
+  background-color: black;
+  color: #fff;
+}
+.text-dark {
+  color: #343a40;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+.font-18 {
+  font-size: 18px;
+}
+.icon-border {
+  border: 1px solid #8a8c91;
+  border-radius: 100px;
+  width: 135px;
+  height: 135px;
+  text-align: center;
+}
+.icon-property {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.temp {
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+.img-icon {
+  height: 47px;
+  margin-top: 40px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.watch-icon-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.watch-icon-property {
+  margin-left: 3rem;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -100px;
+  font-size: 13px;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+.player-banner-mrg {
+  margin-top: 5rem;
+}
+.package-div-mrg {
+  margin-top: 2rem;
+}
+.species-div-mrg {
+  margin-top: 2rem;
+}
+.species-property {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.species-mrg {
+  margin-left: 1rem;
+}
+.deneme {
+  width: 60%;
+  margin-left: 25rem;
+  margin-top: 3rem;
+}
+// .container-body{
+//   background-color: red;
+// }
+.slick-slider {
+  .slick-next {
+    display: block;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    margin-right: -30px;
+    background-image: url("https://tvplus.com.tr/images/arrow_right_black.png");
+    &::before {
+      display: none;
+    }
+    background-repeat: no-repeat;
+    &:hover {
+      background-repeat: no-repeat;
+      background-image: url("https://tvplus.com.tr/images/arrow_right_black.png");
+    }
+    &:focus {
+      background-repeat: no-repeat;
+      background-image: url("https://tvplus.com.tr/images/arrow_right_black.png");
+    }
+  }
+  .slick-prev {
+    display: block;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    background: url("https://tvplus.com.tr/images/arrow_left_black.png");
+    &::before {
+      display: none;
+    }
+    background-repeat: no-repeat;
+    &:hover {
+      background-repeat: no-repeat;
+      background-image: url("https://tvplus.com.tr/images/arrow_left_black.png");
+    }
+    &:focus {
+      background-repeat: no-repeat;
+      background-image: url("https://tvplus.com.tr/images/arrow_left_black.png");
+    }
+  }
+}
+.footer {
+  align-items: center;
+  height: auto;
+  padding-top: 87px;
+  padding-bottom: 87px;
+  background-color: #13161d;
+}
+.container-footer {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.col-md-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.col-lg-10 {
+  position: relative;
+  width: 100%;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.col-lg-2 {
+  position: relative;
+  width: 100%;
+}
+.p1-0 {
+  padding-left: 0 !important;
+}
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+.mb-md-3 {
+  margin-bottom: 1rem !important;
+}
+.mt-md-2 {
+  margin-top: 0.5rem !important;
+}
+.footer-a {
+  text-decoration: none;
+  color: #fff;
+}
+.pt-md-4 {
+  padding-top: 1.5rem !important;
+}
+.footer-icon-text {
+  color: #fad604 !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.btn {
+  cursor: pointer;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.px-1 {
+  padding-left: 0.25rem !important;
+}
+.py-0 {
+  padding-top: 0 !important;
+}
+.footer-row {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bg-container {
+ 
+  padding-bottom: 300px;
+  display: block;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.my-auto {
+  margin-bottom: auto !important;
+}
+.centered-middle {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.player-btn-pd{
+  padding-left: 15rem;
+}
+.btn-link{
+  font-weight: 400;
+    color: #3490dc;
+    text-decoration: none;
+}
+.btn{
+  cursor: pointer;
+  background-color: transparent;
+    border: 1px solid transparent;
+}
+.btn-play-mrg{
+  margin-left: 45rem;
+}
+.popup{
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40rem;
+}
+.popup-inner{
+  position: relative;
+  padding: 40px;
+  width: 100%;
+  max-width: 640px;
+  background-color: rgb(102, 102, 102);
+}
+.popup-inner .close-popup-btn{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.container-slider {
+  position: relative;
+  background-color: black;
+  width: auto !important;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-slider:hover .image {
+  opacity: 0.3;
+}
+
+.container-slider:hover .middle {
+  opacity: 1;
+}
+
+.top-text {
+  font-size: 22px!important;
+    color: #fad604;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.bottom-text{
+  color: #fff!important;
+  line-height: 1.4;
+}
