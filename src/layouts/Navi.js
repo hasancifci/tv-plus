@@ -11,6 +11,7 @@ export default function Navi() {
         <Logo />
         <Content />
         <NavbarButtons />
+        
       </div>
       
     </div>
